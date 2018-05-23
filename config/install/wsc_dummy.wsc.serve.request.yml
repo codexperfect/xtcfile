@@ -1,0 +1,38 @@
+wscontent:
+  serve_request:
+    allowed_ws:
+      ttext:
+        dummy:
+          full:
+            profile: 'test_text'
+            method: 'getDummyData'
+            content_type: 'page'
+            response: 'html'
+      thtml:
+        dummy:
+          full:
+            profile: 'test_html'
+            method: 'getDummyData'
+            content_type: 'page'
+            response: 'html'
+      tcsv:
+        dummy:
+          full:
+            profile: 'test_csv'
+            method: 'getDummyData'
+            content_type: 'page'
+            response: 'json'
+      tyaml:
+        dummy:
+          full:
+            profile: 'test_yaml'
+            method: 'getDummyData'
+            content_type: 'page'
+            response: 'json'
+      tjson:
+        dummy:
+          full:
+            profile: 'test_json'
+            method: 'getDummyData'
+            content_type: 'page'
+            response: 'json'

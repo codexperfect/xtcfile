@@ -1,0 +1,6 @@
+name: "WebService Content from Dummy sources"
+type: module
+description: "Manage contents from Dummy source."
+core: '8.x'
+package: "WebService Content"
+dependencies: []

@@ -1,0 +1,17 @@
+wscontent:
+  serve_wsrequest:
+    test_text:
+      allowed:
+        - getDummyData
+    test_html:
+      allowed:
+        - getDummyData
+    test_csv:
+      allowed:
+        - getDummyData
+    test_yaml:
+      allowed:
+        - getDummyData
+    test_json:
+      allowed:
+        - getDummyData

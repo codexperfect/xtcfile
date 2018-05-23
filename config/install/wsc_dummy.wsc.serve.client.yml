@@ -1,0 +1,27 @@
+wscontent:
+  serve_client:
+    test_text:
+      type: 'dummy'
+      format: txt
+      abs_path: false
+      path: 'example/demo.txt'
+    test_html:
+      type: 'dummy'
+      format: txt
+      abs_path: false
+      path: 'example/demo.html'
+    test_csv:
+      type: 'dummy'
+      format: csv
+      abs_path: false
+      path: 'example/demo.csv'
+    test_yaml:
+      type: 'dummy'
+      format: yaml
+      abs_path: false
+      path: 'example/demo.yml'
+    test_json:
+      type: 'dummy'
+      format: json
+      abs_path: false
+      path: 'example/demo.json'

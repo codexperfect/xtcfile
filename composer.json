@@ -1,0 +1,16 @@
+{
+    "name": "drupal/wsc_dummy",
+    "type": "drupal-module",
+    "description": "Manage contents from Dummy source.",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "homepage": "https://www.drupal.org/project/wscontent",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/wscontent",
+        "source": "http://cgit.drupalcode.org/wscontent"
+    },
+    "require": {
+        "friendsofsymfony/elastica-bundle": "5.*"
+    }
+}
