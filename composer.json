@@ -1,16 +1,19 @@
 {
-    "name": "drupal/wsc_dummy",
-    "type": "drupal-module",
-    "description": "Manage contents from Dummy source.",
-    "keywords": ["Drupal"],
-    "license": "GPL-2.0+",
-    "homepage": "https://www.drupal.org/project/wscontent",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://www.drupal.org/project/issues/wscontent",
-        "source": "http://cgit.drupalcode.org/wscontent"
-    },
-    "require": {
-        "friendsofsymfony/elastica-bundle": "5.*"
+  "name": "drupal/xtcfile",
+  "type": "drupal-module",
+  "description": "Extended Content provides access to external file content from Drupal.",
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/xtcfile",
+  "authors": [
+    {
+      "name": "Alexandre Israël",
+      "homepage": "https://www.drupal.org/u/w3wfr"
     }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/xtcfile",
+    "source": "http://cgit.drupalcode.org/xtcfile"
+  },
+  "require": {
+  }
 }
