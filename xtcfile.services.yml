@@ -1,16 +1,16 @@
 services:
   wscdummy.test_text:
-    class: Drupal\wscontent\WSContent\Serve\WSRequest\DummyRequest
+    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_text']
   wscdummy.test_csv:
-    class: Drupal\wscontent\WSContent\Serve\WSRequest\DummyRequest
+    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_csv']
   wscdummy.test_yaml:
-    class: Drupal\wscontent\WSContent\Serve\WSRequest\DummyRequest
+    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_yaml']
   wscdummy.test_json:
-    class: Drupal\wscontent\WSContent\Serve\WSRequest\DummyRequest
+    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_json']
   wscdummy.test_db:
-    class: Drupal\wscontent\WSContent\Serve\WSRequest\DummyRequest
+    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_db']
