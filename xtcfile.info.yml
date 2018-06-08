@@ -1,6 +1,6 @@
-name: "Xtended content for File"
+name: "Xtended Content for File"
 type: module
-description: "Xtended content from File sources."
+description: "Xtended Content from File sources."
 core: '8.x'
 package: "Xtended Content"
 dependencies: []
