@@ -1,4 +1,4 @@
-wscontent:
+xtcontent:
   serve_client:
     test_text:
       type: 'dummy'

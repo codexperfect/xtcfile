@@ -1,5 +1,5 @@
-wscontent:
-  serve_wsrequest:
+xtcontent:
+  serve_xtcrequest:
     test_text:
       allowed:
         - getDummyData
