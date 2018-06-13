@@ -5,34 +5,34 @@ xtcontent:
         dummy:
           full:
             profile: 'test_text'
-            method: 'getDummyData'
+            method: 'getTxtData'
             content_type: 'page'
             response: 'html'
       thtml:
         dummy:
           full:
             profile: 'test_html'
-            method: 'getDummyData'
+            method: 'getTxtData'
             content_type: 'page'
             response: 'html'
       tcsv:
         dummy:
           full:
             profile: 'test_csv'
-            method: 'getDummyData'
+            method: 'getCsvData'
             content_type: 'page'
             response: 'json'
       tyaml:
         dummy:
           full:
             profile: 'test_yaml'
-            method: 'getDummyData'
+            method: 'getYamlData'
             content_type: 'page'
             response: 'json'
       tjson:
         dummy:
           full:
             profile: 'test_json'
-            method: 'getDummyData'
+            method: 'getJsonData'
             content_type: 'page'
             response: 'json'

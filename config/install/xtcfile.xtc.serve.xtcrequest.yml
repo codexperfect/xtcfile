@@ -3,15 +3,35 @@ xtcontent:
     test_text:
       allowed:
         - getDummyData
+        - getCsvData
+        - getTxtData
+        - getYamlData
+        - getJsonData
     test_html:
       allowed:
         - getDummyData
+        - getCsvData
+        - getTxtData
+        - getYamlData
+        - getJsonData
     test_csv:
       allowed:
         - getDummyData
+        - getCsvData
+        - getTxtData
+        - getYamlData
+        - getJsonData
     test_yaml:
       allowed:
         - getDummyData
+        - getCsvData
+        - getTxtData
+        - getYamlData
+        - getJsonData
     test_json:
       allowed:
         - getDummyData
+        - getCsvData
+        - getTxtData
+        - getYamlData
+        - getJsonData
