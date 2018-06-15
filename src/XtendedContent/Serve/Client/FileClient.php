@@ -123,10 +123,6 @@ class FileClient extends AbstractClient
     }
   }
 
-  private function getInfo($item) : string {
-    return (isset($this->clientProfile[$item])) ? $this->clientProfile[$item] : '';
-  }
-
   /**
    * w3wfr: Method stolen from https://github.com/parsecsv/parsecsv-for-php
    *
