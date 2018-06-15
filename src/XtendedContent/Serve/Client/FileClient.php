@@ -118,9 +118,7 @@ class FileClient extends AbstractClient
     }
     else{
       $module_handler = \Drupal::service('module_handler');
-      $moduleName  = $this->getInfo('module');
-      $module = (isset($moduleName)) ? $this->getInfo('module') : 'xtcfile';
-      $pwd = $module_handler->getModule($module)->getPath();
+      $pwd = $module_handler->getModule($this->getInfo('module'))->getPath();
       return $pwd.'/'.$this->getInfo('path');
     }
   }
