@@ -11,7 +11,8 @@ namespace Drupal\xtcfile\XtendedContent\Serve\Client;
 
 use Drupal\Component\Serialization\Json;
 use Drupal\Core\Serialization\Yaml;
-use Drupal\xtc\XtendedContent\API\Config;
+use Drupal\xtc\XtendedContent\Serve\Client\AbstractClient;
+use Drupal\xtc\XtendedContent\Serve\Client\ClientInterface;
 
 class FileClient extends AbstractClient
 {
@@ -46,7 +47,7 @@ class FileClient extends AbstractClient
    * @param string $method
    * @param string $param
    *
-   * @return \Drupal\xtc\XtendedContent\Serve\Client\ClientInterface
+   * @return ClientInterface
    */
   public function init($method, $param = '') : ClientInterface{
     $this->method = $method;
@@ -102,7 +103,7 @@ class FileClient extends AbstractClient
   }
 
   /**
-   * @return \Drupal\xtc\XtendedContent\Serve\Client\ClientInterface
+   * @return ClientInterface
    */
   public function setOptions()  : ClientInterface {
     $this->setClientProfile();
