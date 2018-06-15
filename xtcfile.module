@@ -11,16 +11,16 @@ use Drupal\Core\Url;
 /**
  * Implements hook_help().
  */
-function wsc_dummy_help($route_name, RouteMatchInterface $route_match) {
+function xtcfile_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
-    case 'help.page.wsc_dummy':
+    case 'help.page.xtcfile':
       $variables = [
-        ':wsc_dummy' => Url::fromRoute('help.page', ['name' => 'wsc_dummy'])->toString(),
+        ':xtcfile' => Url::fromRoute('help.page', ['name' => 'xtcfile'])->toString(),
       ];
 
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('The <a href=":wsc_dummy">WebService Content for Dummy sources</a> module provide features to pull contents from Dummy source.', $variables) . '</p>';
+      $output .= '<p>' . t('The <a href=":xtcfile">WebService Content for Dummy sources</a> module provide features to pull contents from Dummy source.', $variables) . '</p>';
       $output .= '<h3>' . t('Uses') . '</h3>';
       $output .= '<p>' . t('[to be completed]') . '</p>';
 

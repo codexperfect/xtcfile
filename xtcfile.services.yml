@@ -1,20 +1,20 @@
 services:
   xtc.dummy:
-    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
+    class: Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest
   xtc.file:
-    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
-  wscdummy.test_text:
-    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
+    class: Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest
+  xtcfile.test_text:
+    class: Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_text']
-  wscdummy.test_csv:
-    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
+  xtcfile.test_csv:
+    class: Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_csv']
-  wscdummy.test_yaml:
-    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
+  xtcfile.test_yaml:
+    class: Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_yaml']
-  wscdummy.test_json:
-    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
+  xtcfile.test_json:
+    class: Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_json']
-  wscdummy.test_db:
-    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
+  xtcfile.test_db:
+    class: Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_db']

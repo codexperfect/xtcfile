@@ -1,27 +1,27 @@
 xtcontent:
   serve_client:
     test_text:
-      type: 'dummy'
+      type: 'file'
       format: txt
       abs_path: false
       path: 'example/demo.txt'
     test_html:
-      type: 'dummy'
+      type: 'file'
       format: txt
       abs_path: false
       path: 'example/demo.html'
     test_csv:
-      type: 'dummy'
+      type: 'file'
       format: csv
       abs_path: false
       path: 'example/demo.csv'
     test_yaml:
-      type: 'dummy'
+      type: 'file'
       format: yaml
       abs_path: false
       path: 'example/demo.yml'
     test_json:
-      type: 'dummy'
+      type: 'file'
       format: json
       abs_path: false
       path: 'example/demo.json'
