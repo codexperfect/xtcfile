@@ -4,24 +4,29 @@ xtcontent:
       type: 'file'
       format: txt
       abs_path: false
+      module: 'xtcfile'
       path: 'example/demo.txt'
     test_html:
       type: 'file'
       format: txt
       abs_path: false
+      module: 'xtcfile'
       path: 'example/demo.html'
     test_csv:
       type: 'file'
       format: csv
       abs_path: false
+      module: 'xtcfile'
       path: 'example/demo.csv'
     test_yaml:
       type: 'file'
       format: yaml
       abs_path: false
+      module: 'xtcfile'
       path: 'example/demo.yml'
     test_json:
       type: 'file'
       format: json
       abs_path: false
+      module: 'xtcfile'
       path: 'example/demo.json'

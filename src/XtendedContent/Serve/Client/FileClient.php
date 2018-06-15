@@ -118,13 +118,15 @@ class FileClient extends AbstractClient
     }
     else{
       $module_handler = \Drupal::service('module_handler');
-      $pwd = $module_handler->getModule('xtcfile')->getPath();
+      $moduleName  = $this->getInfo('module');
+      $module = (isset($moduleName)) ? $this->getInfo('module') : 'xtcfile';
+      $pwd = $module_handler->getModule($module)->getPath();
       return $pwd.'/'.$this->getInfo('path');
     }
   }
 
-  private function getInfo($item){
-    return $this->clientProfile[$item];
+  private function getInfo($item) : string {
+    return (isset($this->clientProfile[$item])) ? $this->clientProfile[$item] : '';
   }
 
   /**
