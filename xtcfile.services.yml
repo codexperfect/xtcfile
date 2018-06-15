@@ -1,8 +1,8 @@
 services:
+  xtc.dummy:
+    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
   xtc.file:
     class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
-  xtc.guzzle:
-    class: Drupal\xtc\XtendedContent\Serve\XtcRequest\GuzzleXtcRequest
   wscdummy.test_text:
     class: Drupal\xtc\XtendedContent\Serve\XtcRequest\FileXtcRequest
     arguments: ['test_text']
