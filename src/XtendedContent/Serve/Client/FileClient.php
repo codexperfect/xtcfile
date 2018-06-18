@@ -76,7 +76,6 @@ class FileClient extends AbstractClient
   }
 
   private function getContent(){
-    dump($this->options['path']);
     if(file_exists($this->options['path'])){
       $content = file_get_contents($this->options['path']);
     }

@@ -42,7 +42,6 @@ class FileXtcRequestTest extends UnitTestCase
   }
 
   private function performOneRequest($name){
-    dump($name);
     $config = $this->setClientConfig()['xtc']['serve_client'][$name];
     $format = $config['format'];
     $method = 'get'. ucfirst($format) .'Data';
@@ -53,9 +52,7 @@ class FileXtcRequestTest extends UnitTestCase
     $xtcRequest->getClient()->setXtcConfig($this->setClientConfig());
     $this->xtcRequest = $xtcRequest;
 
-    dump($method);
     $this->xtcRequest->get($method);
-    dump($this->xtcRequest);
     $response = $this->xtcRequest->getData();
     $expected = $this->expected($name);
     $this->assertSame($expected, $response);
