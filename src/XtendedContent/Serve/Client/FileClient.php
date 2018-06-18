@@ -76,6 +76,7 @@ class FileClient extends AbstractClient
   }
 
   private function getContent(){
+    dump($this->options['path']);
     if(file_exists($this->options['path'])){
       $content = file_get_contents($this->options['path']);
     }
@@ -112,6 +113,16 @@ class FileClient extends AbstractClient
     return $this;
   }
 
+  /**
+   * @return ClientInterface
+   */
+  public function setOptionsFromConfig($config)  : ClientInterface {
+    $this->setClientProfile();
+    $options['path'] = $this->buildPathFromConfig($config);
+    $this->options = $options;
+    return $this;
+  }
+
   private function buildPath(){
     if($this->getInfo('abs_path')){
       return $this->getInfo('path');
@@ -119,6 +130,16 @@ class FileClient extends AbstractClient
     else{
       $module_handler = \Drupal::service('module_handler');
       $pwd = $module_handler->getModule($this->getInfo('module'))->getPath();
+      return $pwd.'/'.$this->getInfo('path');
+    }
+  }
+
+  private function buildPathFromConfig($config){
+    if($this->getInfo('abs_path')){
+      return $this->getInfo('path');
+    }
+    else{
+      $pwd = getcwd().'/../../../..';
       return $pwd.'/'.$this->getInfo('path');
     }
   }
@@ -261,7 +282,7 @@ class FileClient extends AbstractClient
           $col = 0;
           $row_count++;
 
-          if ($this->sort_by === null && $limit !== null && count($rows) == $limit) {
+          if (empty($this->sort_by) && $limit !== null && count($rows) == $limit) {
             $i = $strlen;
           }
 

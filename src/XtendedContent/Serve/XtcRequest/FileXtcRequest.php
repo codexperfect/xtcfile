@@ -21,4 +21,12 @@ class FileXtcRequest extends AbstractXtcRequest
     $this->client->setXtcConfigFromYaml();
     return $this;
   }
+
+  protected function buildClientFromConfig($config){
+    if(isset($this->profile)){
+      $this->client = new FileClient($this->profile);
+    }
+    $this->client->setXtcConfig($config);
+    return $this;
+  }
 }
