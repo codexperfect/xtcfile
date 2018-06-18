@@ -9,8 +9,6 @@
 
 namespace Drupal\Tests\csoec_user\Functional\Serve\XtcRequest;
 
-//include_once __DIR__.'/../../../../../../extranet/csoec_extranet/vendor/autoload.php';
-
 use Drupal\Tests\UnitTestCase;
 use Drupal\xtc\XtendedContent\Serve\XtcRequest\XtcRequestInterface;
 use Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest;
@@ -37,23 +35,27 @@ class FileXtcRequestTest extends UnitTestCase
   }
 
   public function testPerformAllRequest(){
-    $config = $this->setXtcConfig()['xtcontent']['serve_xtcrequest'];
+    $config = $this->setXtcConfig()['xtc']['serve_xtcrequest'];
     foreach ($config as $name => $conf){
       $this->performOneRequest($name);
     }
   }
 
   private function performOneRequest($name){
-    $config = $this->setClientConfig()['xtcontent']['serve_client'][$name];
+    dump($name);
+    $config = $this->setClientConfig()['xtc']['serve_client'][$name];
     $format = $config['format'];
     $method = 'get'. ucfirst($format) .'Data';
 
     $xtcRequest = New FileXtcRequest($name);
-    $xtcRequest->setConfig($this->setXtcConfig());
+    $fullconfig = array_merge_recursive($this->setXtcConfig(),$this->setClientConfig());
+    $xtcRequest->setConfig($fullconfig);
     $xtcRequest->getClient()->setXtcConfig($this->setClientConfig());
     $this->xtcRequest = $xtcRequest;
 
+    dump($method);
     $this->xtcRequest->get($method);
+    dump($this->xtcRequest);
     $response = $this->xtcRequest->getData();
     $expected = $this->expected($name);
     $this->assertSame($expected, $response);
@@ -61,7 +63,7 @@ class FileXtcRequestTest extends UnitTestCase
 
   private function setXtcConfig(){
     return [
-      "xtcontent" => [
+      "xtc" => [
         "serve_xtcrequest" => [
           "test_text" => $this::ALLOWED,
           "test_html" => $this::ALLOWED,
@@ -74,7 +76,7 @@ class FileXtcRequestTest extends UnitTestCase
   }
   private function setClientConfig(){
     return [
-      "xtcontent" => [
+      "xtc" => [
         "serve_client" => [
           "test_text" => [
             "type" => "file",
@@ -102,7 +104,7 @@ class FileXtcRequestTest extends UnitTestCase
             "format" => "yaml",
             "abs_path" => false,
             "module" => "xtcfile",
-            "path" => "example/demo.yaml",
+            "path" => "example/demo.yml",
           ],
           "test_json" => [
             "type" => "file",
