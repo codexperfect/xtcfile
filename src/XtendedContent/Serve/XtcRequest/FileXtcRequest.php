@@ -1,25 +1,20 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: dev
- * Date: 19/04/2018
- * Time: 17:21
+ * User: aisrael
+ * Date: 22/06/2018
+ * Time: 11:01
  */
 
 namespace Drupal\xtcfile\XtendedContent\Serve\XtcRequest;
 
 
-use Drupal\xtc\XtendedContent\Serve\XtcRequest\AbstractXtcRequest;
 use Drupal\xtcfile\XtendedContent\Serve\Client\FileClient;
 
-class FileXtcRequest extends AbstractXtcRequest
+class FileXtcRequest extends AbstractFileXtcRequest
 {
-  protected function buildClient(){
-    if(isset($this->profile)){
-      $this->client = new FileClient($this->profile);
-    }
-    $this->client->setXtcConfig($this->config);
-    return $this;
+  protected function getFileClient(){
+    return New FileClient($this->profile);
   }
 
 }
