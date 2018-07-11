@@ -13,8 +13,5 @@ use Drupal\xtcfile\XtendedContent\Serve\Client\FileClient;
 
 class FileXtcRequest extends AbstractFileXtcRequest
 {
-  protected function getFileClient(){
-    return New FileClient($this->profile);
-  }
 
 }
