@@ -20,22 +20,12 @@ class FileXtcRequestTest extends UnitTestCase
    */
   protected $xtcRequest;
 
-  private const ALLOWED = [
-    "allowed" => [
-      0 => "getDummyData",
-      1 => "getCsvData",
-      2 => "getTxtData",
-      3 => "getYamlData",
-      4 => "getJsonData",
-    ],
-  ];
-
   protected function setUp() {
     parent::setUp();
   }
 
   public function testPerformAllRequest(){
-    $config = $this->setXtcConfig()['xtc']['serve_xtcrequest'];
+    $config = $this->getRequests();
     foreach ($config as $name => $conf){
       $this->performOneRequest($name);
     }
@@ -47,7 +37,7 @@ class FileXtcRequestTest extends UnitTestCase
     $method = 'get'. ucfirst($format) .'Data';
 
     $xtcRequest = New FileXtcRequest($name);
-    $fullconfig = array_merge_recursive($this->setXtcConfig(),$this->setClientConfig());
+    $fullconfig = $this->setClientConfig();
     $xtcRequest->setConfig($fullconfig);
     $xtcRequest->getClient()->setXtcConfig($this->setClientConfig());
     $this->xtcRequest = $xtcRequest;
@@ -58,19 +48,16 @@ class FileXtcRequestTest extends UnitTestCase
     $this->assertSame($expected, $response);
   }
 
-  private function setXtcConfig(){
+  private function getRequests(){
     return [
-      "xtc" => [
-        "serve_xtcrequest" => [
-          "test_text" => $this::ALLOWED,
-          "test_html" => $this::ALLOWED,
-          "test_csv" => $this::ALLOWED,
-          "test_yaml" => $this::ALLOWED,
-          "test_json" => $this::ALLOWED,
-        ],
-      ],
+      "test_text",
+      "test_html",
+      "test_csv",
+      "test_yaml",
+      "test_json",
     ];
   }
+  
   private function setClientConfig(){
     return [
       "xtc" => [
