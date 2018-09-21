@@ -7,7 +7,7 @@
  */
 
 
-namespace Drupal\Tests\csoec_user\Functional\Serve\XtcRequest;
+namespace Drupal\Tests\xtcfile\Functional\Serve\XtcRequest;
 
 use Drupal\Tests\UnitTestCase;
 use Drupal\xtc\XtendedContent\Serve\XtcRequest\XtcRequestInterface;
