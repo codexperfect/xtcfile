@@ -9,8 +9,6 @@
 namespace Drupal\xtcfile\XtendedContent\Serve\XtcRequest;
 
 
-use Drupal\xtcfile\XtendedContent\Serve\Client\FileClient;
-
 class FileXtcRequest extends AbstractFileXtcRequest
 {
 
