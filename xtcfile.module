@@ -27,3 +27,15 @@ function xtcfile_help($route_name, RouteMatchInterface $route_match) {
       return $output;
   }
 }
+
+/**
+ * Implements hook_theme().
+ */
+function xtcfile_theme($existing, $type, $theme, $path) {
+  return [
+    'xtc_file' => [
+      'variables' =>  ['response' => NULL],
+      'template' => 'xtc-file',
+    ],
+  ];
+}

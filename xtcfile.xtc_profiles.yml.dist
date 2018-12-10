@@ -1,0 +1,45 @@
+test_text:
+  label: 'Text file'
+  description: ''
+  type: 'text'
+  format: txt
+  abs_path: false
+  module: 'xtcfile'
+  path: 'example/demo.txt'
+  service: 'Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest'
+test_html:
+  label: 'HTML file'
+  description: ''
+  type: 'html'
+  format: txt
+  abs_path: false
+  module: 'xtcfile'
+  path: 'example/demo.html'
+  service: 'Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest'
+test_csv:
+  label: 'CSV file'
+  description: ''
+  type: 'csv'
+  format: csv
+  abs_path: false
+  module: 'xtcfile'
+  path: 'example/demo.csv'
+  service: 'Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest'
+test_yaml:
+  label: 'YAML file'
+  description: ''
+  type: 'yaml'
+  format: yaml
+  abs_path: false
+  module: 'xtcfile'
+  path: 'example/demo.yml'
+  service: 'Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest'
+test_json:
+  label: 'JSON file'
+  description: ''
+  type: 'json'
+  format: json
+  abs_path: false
+  module: 'xtcfile'
+  path: 'example/demo.json'
+  service: 'Drupal\xtcfile\XtendedContent\Serve\XtcRequest\FileXtcRequest'

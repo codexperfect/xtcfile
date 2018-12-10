@@ -1,0 +1,7 @@
+xtcfile.file:
+  path: '/xtcfile/{alias}'
+  defaults:
+    _controller: '\Drupal\xtcfile\Controller\XtcFileController::file'
+    _title_callback: '\Drupal\xtcfile\Controller\XtcFileController::getTitle'
+  requirements:
+    _permission: 'access content'

@@ -9,7 +9,7 @@
 namespace Drupal\xtcfile\API;
 
 
-class Csv {
+class LoadCsv {
   /**
    * w3wfr: Method stolen from https://github.com/parsecsv/parsecsv-for-php
    *

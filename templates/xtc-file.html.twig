@@ -1,0 +1,10 @@
+{# Full actualite view #}
+<div class="col-sm-12 col-md-10 col-lg-10 text-center container-news">
+    {% if response.body is not empty %}
+        <div class="contenu-text-news">
+            {{ response.body|raw }}
+        </div>
+    {% endif %}
+    {# END BLOCK COMPOSANTS #}
+</div>
+
