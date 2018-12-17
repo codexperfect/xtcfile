@@ -14,7 +14,7 @@ use Drupal\xtcfile\API\LoadCsv;
  *   description = @Translation("CSV File for XTC description.")
  * )
  */
-class Csv extends File {
+class Csv extends FileBase {
 
 
   public function get(){

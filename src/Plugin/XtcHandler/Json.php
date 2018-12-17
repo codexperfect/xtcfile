@@ -14,7 +14,7 @@ use Drupal\Component\Serialization\Json as JsonSerializer;
  *   description = @Translation("JSON File for XTC description.")
  * )
  */
-class Json extends File
+class Json extends FileBase
 {
 
   public function get(){

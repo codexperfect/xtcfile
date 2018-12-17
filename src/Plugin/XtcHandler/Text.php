@@ -13,7 +13,7 @@ namespace Drupal\xtcfile\Plugin\XtcHandler;
  *   description = @Translation("Text File for XTC description.")
  * )
  */
-class Text extends File
+class Text extends FileBase
 {
 
 }

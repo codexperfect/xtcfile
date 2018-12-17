@@ -6,15 +6,10 @@ namespace Drupal\xtcfile\Plugin\XtcHandler;
 use Drupal\xtc\PluginManager\XtcHandler\XtcHandlerPluginBase;
 
 /**
- * Plugin implementation of the xtc_handler.
+ * Plugin implementation of the xtc_handler for File.
  *
- * @XtcHandler(
- *   id = "file",
- *   label = @Translation("XTC File"),
- *   description = @Translation("XTC File description.")
- * )
  */
-class File extends XtcHandlerPluginBase
+abstract class FileBase extends XtcHandlerPluginBase
 {
 
   public function get(){
