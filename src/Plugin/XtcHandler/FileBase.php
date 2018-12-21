@@ -20,7 +20,7 @@ abstract class FileBase extends XtcHandlerPluginBase
     return $this->content;
   }
 
-  public function setOptions() {
+  public function setOptions() : XtcHandlerPluginBase{
     $options['path'] = $this->buildPath();
     $this->options = $options;
     return $this;
