@@ -33,3 +33,10 @@ test_json:
   abs_path: false
   module: 'xtcfile'
   path: 'example/demo.json'
+test_md:
+  label: 'MarkDown file'
+  description: ''
+  type: 'markdown'
+  abs_path: false
+  module: 'xtcfile'
+  path: 'example/demo.md'

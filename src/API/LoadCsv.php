@@ -23,7 +23,7 @@ class LoadCsv {
    *
    * @return array|false - 2D array with CSV data, or false on failure
    */
-  public function getCsvContent($data = null, $delimiter = ',', $enclosure = '"', $heading = TRUE, $limit = null) {
+  public function getContent($data = null, $delimiter = ',', $enclosure = '"', $heading = TRUE, $limit = null) {
     $white_spaces = str_replace($delimiter, '', " \t\x0B\0");
     $error = 0;
 

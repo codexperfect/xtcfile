@@ -15,5 +15,6 @@
     "source": "http://cgit.drupalcode.org/xtcfile"
   },
   "require": {
+    "erusev/parsedown": "^1.7"
   }
 }
