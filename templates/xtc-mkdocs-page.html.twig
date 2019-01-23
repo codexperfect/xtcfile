@@ -1,0 +1,26 @@
+<div class="col-sm-12 col-md-10 col-lg-10 text-center container-news">
+  <div>Back to <a href="{{ response.parent }}">parent</a></div>
+    {% if response.title is not empty %}
+        <h2>{{ response.title }}</h2>
+    {% endif %}
+    {% if response.content is not empty %}
+        <div class="contenu-text-news">
+            {{ response.content|raw }}
+        </div>
+    {% endif %}
+
+    {% if response.subpages is not empty %}
+        <h3>Sub-pages</h3>
+
+    <ul>
+        {% for key, page in response.subpages %}
+            {% for label, path in page %}
+              <li><a href="{{ url('<current>') }}-{{ key }}">{{ label }}</a></li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+
+</div>
+

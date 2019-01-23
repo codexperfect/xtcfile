@@ -17,13 +17,8 @@ use Drupal\Core\Serialization\Yaml as YamlSerializer;
 class Yaml extends FileBase
 {
 
-  public function get(){
-    $this->buildPath();
-    if(file_exists($this->options['path'])){
-      $this->content = YamlSerializer::decode(file_get_contents($this->options['path']));
-
-    }
-    return $this->content;
+  protected function processContent(){
+    $this->content = YamlSerializer::decode($this->content);
   }
 
 }

@@ -1,0 +1,32 @@
+<div class="col-sm-12 col-md-10 col-lg-10 text-center container-news">
+    {% if response.site_name is not empty %}
+        <h2>{{ response.site_name }}</h2>
+    {% endif %}
+    {% if response.site_description is not empty %}
+        <div class="contenu-text-news">
+            {{ response.site_description|raw }}
+        </div>
+    {% endif %}
+
+    <ul>
+        {% if response.repo_url is not empty %}
+          <li>Repository: <a href="{{ response.repo_url }}">{{ response.repo_url }}</a></li>
+        {% endif %}
+    </ul>
+
+
+    {% if response.pages is not empty %}
+        <h3>Pages</h3>
+
+    <ul>
+        {% for key, page in response.pages %}
+            {% for label, path in page %}
+                <li><a href="{{ url('<current>') }}/{{ key }}">{{ label }}</li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+
+</div>
+

@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\xtc\XtendedContent\API\Config;
 use Drupal\Core\Url;
 
 /**
@@ -13,18 +14,17 @@ use Drupal\Core\Url;
  */
 function xtcfile_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
+    case 'help.main':
+      $output = '<h2>' . t('Documentation') .
+                '</h2>';
+      $output .= '<p>' . t('Readme files and Documentation pages can be directly consulted from 
+the administration area.') . '</p>';
+      $output .= '<p>' . t('<a href=":documentation">This page</a> lists links to Readme files included in 
+the modules packages, and Documentation based on <b><a href=":mkdocs" target="_blank">MkDocs</a></b> standards.',
+                           [':documentation' => Url::fromRoute('xtcfile.docs')->toString(), ':mkdocs' => 'https://www.mkdocs.org/']) . '</p>';
+      return ['#markup' => $output];
     case 'help.page.xtcfile':
-      $variables = [
-        ':xtcfile' => Url::fromRoute('help.page', ['name' => 'xtcfile'])->toString(),
-      ];
-
-      $output = '';
-      $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('The <a href=":xtcfile">WebService Content for Dummy sources</a> module provide features to pull contents from Dummy source.', $variables) . '</p>';
-      $output .= '<h3>' . t('Uses') . '</h3>';
-      $output .= '<p>' . t('[to be completed]') . '</p>';
-
-      return $output;
+      return Config::getHelp('xtcfile');
   }
 }
 
@@ -36,6 +36,29 @@ function xtcfile_theme($existing, $type, $theme, $path) {
     'xtc_file' => [
       'variables' =>  ['response' => NULL],
       'template' => 'xtc-file',
+    ],
+    'xtc_documentation' => [
+      'variables' =>  [
+        'links' => NULL
+      ],
+      'template' => 'xtc-documentation',
+    ],
+    'xtc_docs_links' => [
+      'variables' =>  [
+        'name' => '',
+        'help' => '',
+        'docs' => '',
+        'readme' => '',
+      ],
+      'template' => 'xtc-docs-links',
+    ],
+    'xtc_mkdocs' => [
+      'variables' =>  ['response' => NULL],
+      'template' => 'xtc-mkdocs',
+    ],
+    'xtc_mkdocs_page' => [
+      'variables' =>  ['response' => NULL],
+      'template' => 'xtc-mkdocs-page',
     ],
   ];
 }

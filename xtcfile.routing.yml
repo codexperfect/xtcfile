@@ -1,0 +1,28 @@
+xtcfile.docs.readme:
+  path: '/admin/documentation/{module}/readme'
+  defaults:
+    _controller: '\Drupal\xtcfile\Controller\XtcReadmeController::file'
+    _title_callback: '\Drupal\xtcfile\Controller\XtcReadmeController::getTitle'
+  requirements:
+    _permission: 'access content'
+xtcfile.docs.docs.page:
+  path: '/admin/documentation/{module}/docs/{id}'
+  defaults:
+    _controller: '\Drupal\xtcfile\Controller\XtcDocsPageController::get'
+    _title_callback: '\Drupal\xtcfile\Controller\XtcDocsPageController::getTitle'
+  requirements:
+    _permission: 'access content'
+xtcfile.docs.docs:
+  path: '/admin/documentation/{module}/docs'
+  defaults:
+    _controller: '\Drupal\xtcfile\Controller\XtcDocsController::get'
+    _title_callback: '\Drupal\xtcfile\Controller\XtcDocsController::getTitle'
+  requirements:
+    _permission: 'access content'
+xtcfile.docs:
+  path: '/admin/documentation'
+  defaults:
+    _controller: '\Drupal\xtcfile\Controller\XtcDocumentationController::get'
+    _title: 'Documentation'
+  requirements:
+    _permission: 'access content'

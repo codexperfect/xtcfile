@@ -17,14 +17,9 @@ use Drupal\xtcfile\API\LoadMarkdown;
 class Markdown extends FileBase
 {
 
-  public function get(){
-    $this->buildPath();
-    if(file_exists($this->options['path'])){
-      $content = file_get_contents($this->options['path']);
-      $markdown = New LoadMarkdown();
-      $this->content = $markdown->getContent($content);
-    }
-    return $this->content;
+  protected function processContent(){
+    $markdown = New LoadMarkdown();
+    $this->content = $markdown->getContent($this->content);
   }
 
 }

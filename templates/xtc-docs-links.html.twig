@@ -1,0 +1,14 @@
+{% if help or docs or readme %}
+<li style="float: left; width:25%; height:25px;">
+  {{ name }} ›
+  {% if help %}
+    [ {{ help }} ]
+  {% endif %}
+  {% if docs %}
+    [ {{ docs }} ]
+  {% endif %}
+  {% if readme %}
+    [ {{ readme }} ]
+  {% endif %}
+  </li>
+{% endif %}

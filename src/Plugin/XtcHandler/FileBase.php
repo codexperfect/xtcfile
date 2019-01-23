@@ -16,8 +16,12 @@ abstract class FileBase extends XtcHandlerPluginBase
     $this->buildPath();
     if(file_exists($this->options['path'])){
       $this->content = file_get_contents($this->options['path']);
+      $this->processContent();
     }
     return $this->content;
+  }
+
+  protected function processContent(){
   }
 
   public function setOptions() : XtcHandlerPluginBase{

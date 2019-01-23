@@ -13,7 +13,7 @@ class LoadMarkdown
 {
 
   public function getContent($content){
-    $parsedown = New Parsedown();
+    $parsedown = New \Parsedown();
     return $parsedown->text($content);
   }
 

@@ -9,7 +9,6 @@
 namespace Drupal\xtcfile\Controller;
 
 
-use Drupal\Component\Serialization\Json;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\xtc\XtendedContent\API\Config;
 
@@ -22,7 +21,11 @@ class XtcFileController extends ControllerBase
    * @return array
    */
   public function file($alias) {
-    $values['body'] = Json::encode(Config::getProfile($alias)->get());
+    $values['body'] = '';
+    $handler = Config::getProfile($alias);
+    if(!empty($handler)){
+      $values['body'] = $handler->get();
+    }
     return [
       '#theme' => 'xtc_file',
       '#response' => $values,

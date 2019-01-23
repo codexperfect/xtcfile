@@ -17,12 +17,8 @@ use Drupal\Component\Serialization\Json as JsonSerializer;
 class Json extends FileBase
 {
 
-  public function get(){
-    $this->buildPath();
-    if(file_exists($this->options['path'])){
-      $this->content = JsonSerializer::decode(file_get_contents($this->options['path']));
-    }
-    return $this->content;
+  protected function processContent(){
+    $this->content = JsonSerializer::decode($this->content);
   }
 
 }
