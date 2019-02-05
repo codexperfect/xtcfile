@@ -11,6 +11,7 @@ namespace Drupal\xtcfile\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\xtc\XtendedContent\API\Config;
+use Drupal\xtc\XtendedContent\API\Documentation;
 
 class XtcDocsController extends ControllerBase
 {
@@ -21,7 +22,7 @@ class XtcDocsController extends ControllerBase
    * @return array
    */
   public function get($module){
-    $values = Config::getDocs($module);
+    $values = Documentation::getDocs($module);
     return [
       '#theme' => 'xtc_mkdocs',
       '#response' => $values,

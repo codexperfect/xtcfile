@@ -9,7 +9,7 @@
 namespace Drupal\xtcfile\Controller;
 
 
-use Drupal\xtc\XtendedContent\API\Config;
+use Drupal\xtc\XtendedContent\API\Documentation;
 
 class XtcReadmeController extends XtcFileController
 {
@@ -27,7 +27,7 @@ class XtcReadmeController extends XtcFileController
         'module' => $module,
         'path' => $path,
       ];
-      $content = Config::getFromProfile($profile) ?? '';
+      $content = Documentation::getFromProfile($profile) ?? '';
       if(!empty($content)){
         break;
       }

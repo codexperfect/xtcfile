@@ -6,7 +6,7 @@
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\xtc\XtendedContent\API\Config;
+use Drupal\xtc\XtendedContent\API\Documentation;
 use Drupal\Core\Url;
 
 /**
@@ -24,7 +24,7 @@ the modules packages, and Documentation based on <b><a href=":mkdocs" target="_b
                            [':documentation' => Url::fromRoute('xtcfile.docs')->toString(), ':mkdocs' => 'https://www.mkdocs.org/']) . '</p>';
       return ['#markup' => $output];
     case 'help.page.xtcfile':
-      return Config::getHelp('xtcfile');
+      return Documentation::getHelp('xtcfile');
   }
 }
 

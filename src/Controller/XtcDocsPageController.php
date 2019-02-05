@@ -12,6 +12,7 @@ namespace Drupal\xtcfile\Controller;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Url;
 use Drupal\xtc\XtendedContent\API\Config;
+use Drupal\xtc\XtendedContent\API\Documentation;
 
 class XtcDocsPageController extends ControllerBase
 {
@@ -43,7 +44,7 @@ class XtcDocsPageController extends ControllerBase
       $values['subpages'] = $current;
     }
     else{
-      $values['content'] = Config::getDocsPage($module, $current);
+      $values['content'] = Documentation::getDocsPage($module, $current);
     }
     return [
       '#theme' => 'xtc_mkdocs_page',
@@ -57,7 +58,7 @@ class XtcDocsPageController extends ControllerBase
    * @return array
    */
   protected function getIndex($module){
-    return Config::getDocs($module)['pages'];
+    return Documentation::getDocs($module)['pages'];
   }
 
   /**

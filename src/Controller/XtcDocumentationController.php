@@ -12,6 +12,7 @@ namespace Drupal\xtcfile\Controller;
 use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Link;
+use Drupal\xtc\XtendedContent\API\XtcHandler;
 
 class XtcDocumentationController extends ControllerBase
 {
@@ -45,6 +46,11 @@ class XtcDocumentationController extends ControllerBase
     return $output;
   }
 
+  public function setModule($module){
+    $this->module = $module;
+    return $this;
+  }
+
   public function getHelp(){
     return '<h2>README file</h2><p>View ' . $this->link2Readme() . '.</p>' .
            '<h2>Documentation</h2><p>Read ' . $this->link2Docs() . '.</p>'
@@ -52,9 +58,9 @@ class XtcDocumentationController extends ControllerBase
   }
 
   /**
-   * @param $module
+   * @param string $text
    *
-   * @return string
+   * @return \Drupal\Core\GeneratedLink
    */
   public function link2Readme($text = 'README'){
     $pathMd = file_exists(\Drupal::moduleHandler()
@@ -69,9 +75,9 @@ class XtcDocumentationController extends ControllerBase
   }
 
   /**
-   * @param $module
+   * @param string $text
    *
-   * @return string
+   * @return \Drupal\Core\GeneratedLink
    */
   public function link2Docs($text = 'Documentation'){
     $path = \Drupal::moduleHandler()->getModule($this->module)->getPath() .'/help/mkdocs.yml';

@@ -11,6 +11,7 @@ namespace Drupal\xtcfile\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\xtc\XtendedContent\API\Config;
+use Drupal\xtc\XtendedContent\API\XtcHandler;
 
 class XtcFileController extends ControllerBase
 {
@@ -22,7 +23,7 @@ class XtcFileController extends ControllerBase
    */
   public function file($alias) {
     $values['body'] = '';
-    $handler = Config::getProfile($alias);
+    $handler = XtcHandler::getHandlerFromProfile($alias);
     if(!empty($handler)){
       $values['body'] = $handler->get();
     }
