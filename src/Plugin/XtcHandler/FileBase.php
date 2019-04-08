@@ -18,7 +18,7 @@ abstract class FileBase extends XtcHandlerPluginBase
       $this->content = file_get_contents($this->options['path']);
       $this->processContent();
     }
-    return $this->content;
+    return $this;
   }
 
   protected function processContent(){
