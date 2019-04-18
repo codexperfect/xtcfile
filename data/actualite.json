@@ -1,150 +1,150 @@
 [
   {
-    "category": "Agenda du président",
-    "headline": "Business story démarrons ensemble une belle histoire",
-    "about": "résumé de l'actualité juin 2018",
-    "body": [
+    "category" : "Agenda du président",
+    "headline" : "Business story démarrons ensemble une belle histoire",
+    "about" : "résumé de l'actualité juin 2018",
+    "body" : [
       {
-        "paragraphType": "editorText",
-        "contenu": {
-          "text": "<div class=\"contenu-text-news\"> <p>A tout âge, on a besoin d'appuis, de protection. On découvre, on hésite, on craint l'échec. Alors, on cherche un soutien, un pilier, pour trouver la sérénité et la confiance, pour mener son projet en sécurité, pour pouvoir construire et durer.</p> <p>Vous montez votre entreprise ? développez votre business ? Juridique, fiscalité, business plan, financement, statuts…, les sujets sont multiples, les risques sont partout. Votre projet a rendez-vous avec un expert-comptable !</p> <p>Nous vous offrons 3 rendez-vous personnalisés, pour vous conseiller, vous protéger et vous accompagner en toute sécurité, dans les choix qui font la base de votre entreprise et conditionnent votre avenir.</p> <p><a href=\"#\">Contactez-nous</a>. Démarrons ensemble votre belle histoire.</p> <a class=\"use-ajax\" data-dialog-type=\"dialog\" href=\"/modal/actualites/agenda-du-president-business-story-demarrons-ensemble-une-belle-histoire\"> Test Modal </a></div>"
+        "paragraphType" : "editorText",
+        "contenu" : {
+          "text" : "<div class=\"contenu-text-news\"> <p>A tout âge, on a besoin d'appuis, de protection. On découvre, on hésite, on craint l'échec. Alors, on cherche un soutien, un pilier, pour trouver la sérénité et la confiance, pour mener son projet en sécurité, pour pouvoir construire et durer.</p> <p>Vous montez votre entreprise ? développez votre business ? Juridique, fiscalité, business plan, financement, statuts…, les sujets sont multiples, les risques sont partout. Votre projet a rendez-vous avec un expert-comptable !</p> <p>Nous vous offrons 3 rendez-vous personnalisés, pour vous conseiller, vous protéger et vous accompagner en toute sécurité, dans les choix qui font la base de votre entreprise et conditionnent votre avenir.</p> <p><a href=\"#\">Contactez-nous</a>. Démarrons ensemble votre belle histoire.</p> <a class=\"use-ajax\" data-dialog-type=\"dialog\" href=\"/modal/actualites/agenda-du-president-business-story-demarrons-ensemble-une-belle-histoire\"> Test Modal </a></div>"
         }
       },
       {
-        "paragraphType": "image",
-        "contenu": {
-          "text": "<picture>\r\n <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\r\n <source srcset=\"\/sites\/default\/files\/styles\/thumbnail__narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, \/sites\/default\/files\/styles\/thumbnail_normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, \/sites\/default\/files\/styles\/thumbnail_wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, \/sites\/default\/files\/styles\/large\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, \/sites\/default\/files\/styles\/narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, \/sites\/default\/files\/styles\/normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w, \/sites\/default\/files\/styles\/wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=ayJfg5mH 900w\" media=\"all and (min-width: 1200px)\" type=\"image\/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"\/sites\/default\/files\/styles\/thumbnail__narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, \/sites\/default\/files\/styles\/thumbnail_normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, \/sites\/default\/files\/styles\/thumbnail_wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, \/sites\/default\/files\/styles\/large\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, \/sites\/default\/files\/styles\/normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w, \/sites\/default\/files\/styles\/wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=ayJfg5mH 900w\" media=\"all and (max-width: 1199px)\" type=\"image\/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"\/sites\/default\/files\/styles\/thumbnail\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=GJUByMp2 100w, \/sites\/default\/files\/styles\/thumbnail__narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, \/sites\/default\/files\/styles\/thumbnail_normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, \/sites\/default\/files\/styles\/thumbnail_wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, \/sites\/default\/files\/styles\/large\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, \/sites\/default\/files\/styles\/narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, \/sites\/default\/files\/styles\/normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w, \/sites\/default\/files\/styles\/wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=ayJfg5mH 900w\" media=\"all and (min-width: 992px)\" type=\"image\/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"\/sites\/default\/files\/styles\/thumbnail_mobile\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=IOoHMulk 100w, \/sites\/default\/files\/styles\/thumbnail__narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, \/sites\/default\/files\/styles\/thumbnail_normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, \/sites\/default\/files\/styles\/thumbnail_wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, \/sites\/default\/files\/styles\/large\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, \/sites\/default\/files\/styles\/narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, \/sites\/default\/files\/styles\/normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w\" media=\"all and (max-width: 991px)\" type=\"image\/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"\/sites\/default\/files\/styles\/thumbnail_mobile\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=IOoHMulk 100w, \/sites\/default\/files\/styles\/thumbnail__narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, \/sites\/default\/files\/styles\/thumbnail_normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, \/sites\/default\/files\/styles\/thumbnail_wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, \/sites\/default\/files\/styles\/large\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, \/sites\/default\/files\/styles\/narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, \/sites\/default\/files\/styles\/normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w\" media=\"all and (min-width: 768px)\" type=\"image\/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"\/sites\/default\/files\/styles\/thumbnail_mobile\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=IOoHMulk 100w, \/sites\/default\/files\/styles\/thumbnail__narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, \/sites\/default\/files\/styles\/thumbnail_normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, \/sites\/default\/files\/styles\/thumbnail_wide\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, \/sites\/default\/files\/styles\/large\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, \/sites\/default\/files\/styles\/narrow\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, \/sites\/default\/files\/styles\/normal\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w\" media=\"all and (max-width: 767px)\" type=\"image\/jpeg\" sizes=\"100vw\">\r\n            <!--[if IE 9]><\/video><![endif]-->\r\n            <img src=\"\/sites\/default\/files\/styles\/thumbnail\/public\/2018-06\/adult-beautiful-blur-935756.jpg?itok=GJUByMp2\" alt=\"gg\" title=\"Nom du photographe ou de l'auteur de la photo.\" class=\"img-fluid\" typeof=\"foaf:Image\">\r\n\r\n  <\/picture>",
-          "description": "Vous montez votre entreprise ? développez votre business ? Juridique, fiscalité, business plan, financement, statuts…, les sujets sont multiples, les risques sont partout. Votre projet a rendez-vous avec un expert-comptable !"
+        "paragraphType" : "image",
+        "contenu" : {
+          "text" : "<picture>\r\n <!--[if IE 9]><video style=\"display: none;\"><![endif]-->\r\n <source srcset=\"/sites/default/files/styles/thumbnail__narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, /sites/default/files/styles/thumbnail_normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, /sites/default/files/styles/thumbnail_wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, /sites/default/files/styles/large/public/2018-06/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, /sites/default/files/styles/narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, /sites/default/files/styles/normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w, /sites/default/files/styles/wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=ayJfg5mH 900w\" media=\"all and (min-width: 1200px)\" type=\"image/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"/sites/default/files/styles/thumbnail__narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, /sites/default/files/styles/thumbnail_normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, /sites/default/files/styles/thumbnail_wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, /sites/default/files/styles/large/public/2018-06/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, /sites/default/files/styles/normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w, /sites/default/files/styles/wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=ayJfg5mH 900w\" media=\"all and (max-width: 1199px)\" type=\"image/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"/sites/default/files/styles/thumbnail/public/2018-06/adult-beautiful-blur-935756.jpg?itok=GJUByMp2 100w, /sites/default/files/styles/thumbnail__narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, /sites/default/files/styles/thumbnail_normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, /sites/default/files/styles/thumbnail_wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, /sites/default/files/styles/large/public/2018-06/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, /sites/default/files/styles/narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, /sites/default/files/styles/normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w, /sites/default/files/styles/wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=ayJfg5mH 900w\" media=\"all and (min-width: 992px)\" type=\"image/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"/sites/default/files/styles/thumbnail_mobile/public/2018-06/adult-beautiful-blur-935756.jpg?itok=IOoHMulk 100w, /sites/default/files/styles/thumbnail__narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, /sites/default/files/styles/thumbnail_normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, /sites/default/files/styles/thumbnail_wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, /sites/default/files/styles/large/public/2018-06/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, /sites/default/files/styles/narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, /sites/default/files/styles/normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w\" media=\"all and (max-width: 991px)\" type=\"image/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"/sites/default/files/styles/thumbnail_mobile/public/2018-06/adult-beautiful-blur-935756.jpg?itok=IOoHMulk 100w, /sites/default/files/styles/thumbnail__narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, /sites/default/files/styles/thumbnail_normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, /sites/default/files/styles/thumbnail_wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, /sites/default/files/styles/large/public/2018-06/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, /sites/default/files/styles/narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, /sites/default/files/styles/normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w\" media=\"all and (min-width: 768px)\" type=\"image/jpeg\" sizes=\"100vw\">\r\n              <source srcset=\"/sites/default/files/styles/thumbnail_mobile/public/2018-06/adult-beautiful-blur-935756.jpg?itok=IOoHMulk 100w, /sites/default/files/styles/thumbnail__narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=JUIIEmVQ 150w, /sites/default/files/styles/thumbnail_normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=e3AuluXT 220w, /sites/default/files/styles/thumbnail_wide/public/2018-06/adult-beautiful-blur-935756.jpg?itok=c_IK3U10 300w, /sites/default/files/styles/large/public/2018-06/adult-beautiful-blur-935756.jpg?itok=Ix7BWeO4 480w, /sites/default/files/styles/narrow/public/2018-06/adult-beautiful-blur-935756.jpg?itok=57flIyth 500w, /sites/default/files/styles/normal/public/2018-06/adult-beautiful-blur-935756.jpg?itok=CaM5Rifo 720w\" media=\"all and (max-width: 767px)\" type=\"image/jpeg\" sizes=\"100vw\">\r\n            <!--[if IE 9]></video><![endif]-->\r\n            <img src=\"/sites/default/files/styles/thumbnail/public/2018-06/adult-beautiful-blur-935756.jpg?itok=GJUByMp2\" alt=\"gg\" title=\"Nom du photographe ou de l'auteur de la photo.\" class=\"img-fluid\" typeof=\"foaf:Image\">\r\n\r\n  </picture>",
+          "description" : "Vous montez votre entreprise ? développez votre business ? Juridique, fiscalité, business plan, financement, statuts…, les sujets sont multiples, les risques sont partout. Votre projet a rendez-vous avec un expert-comptable !"
         }
       },
       {
-        "paragraphType": "documentConnexeList",
-        "title": "A télécharger",
-        "contenu": [
+        "paragraphType" : "documentConnexeList",
+        "title" : "A télécharger",
+        "contenu" : [
           {
-            "name": "Document 1",
-            "id": "50"
+            "name" : "Document 1",
+            "id" : "50"
           },
           {
-            "name": "Document 2",
-            "id": "51"
+            "name" : "Document 2",
+            "id" : "51"
           }
         ]
       },
       {
-        "paragraphType": "citation",
-        "contenu": {
-          "text": "Attention, seul un expert-comptable inscrit à l'Ordre et figurant sur l'annuaire peut utiliser le titre d'expert-comptable et effectuer certaines missions."
+        "paragraphType" : "citation",
+        "contenu" : {
+          "text" : "Attention, seul un expert-comptable inscrit à l'Ordre et figurant sur l'annuaire peut utiliser le titre d'expert-comptable et effectuer certaines missions."
         }
       },
       {
-        "paragraphType": "lienConnexeList",
-        "title": "A lire également",
-        "contenu": [
+        "paragraphType" : "lienConnexeList",
+        "title" : "A lire également",
+        "contenu" : [
           {
-            "name": "Google",
-            "uri": "http://www.google.fr",
-            "from": "externe"
+            "name" : "Google",
+            "uri" : "http://www.google.fr",
+            "from" : "externe"
           },
           {
-            "name": "Actualite 8",
-            "uri": "/actualite/8",
-            "from": "interne"
+            "name" : "Actualite 8",
+            "uri" : "/actualite/8",
+            "from" : "interne"
           },
           {
-            "name": "Attention, seul un expert-comptable inscrit à l'Ordre et figurant sur",
-            "uri": "http://www.google.fr",
-            "from": "externe"
+            "name" : "Attention, seul un expert-comptable inscrit à l'Ordre et figurant sur",
+            "uri" : "http://www.google.fr",
+            "from" : "externe"
           }
         ]
       },
       {
-        "paragraphType": "lienConnexeList",
-        "title": "Pour approfondir",
-        "contenu": [
+        "paragraphType" : "lienConnexeList",
+        "title" : "Pour approfondir",
+        "contenu" : [
           {
-            "name": "Google",
-            "uri": "http://www.google.fr",
-            "from": "externe"
+            "name" : "Google",
+            "uri" : "http://www.google.fr",
+            "from" : "externe"
           },
           {
-            "name": "Actualite 8",
-            "uri": "/actualite/8",
-            "from": "interne"
+            "name" : "Actualite 8",
+            "uri" : "/actualite/8",
+            "from" : "interne"
           },
           {
-            "name": "Attention, seul un expert-comptable inscrit à l'Ordre et figurant sur",
-            "uri": "http://www.google.fr",
-            "from": "externe"
+            "name" : "Attention, seul un expert-comptable inscrit à l'Ordre et figurant sur",
+            "uri" : "http://www.google.fr",
+            "from" : "externe"
           }
         ]
       },
       {
-        "paragraphType": "video",
-        "contenu": {
-          "text": "240160450"
+        "paragraphType" : "video",
+        "contenu" : {
+          "text" : "240160450"
         }
       },
       {
-        "paragraphType": "referenceList",
-        "title": "Reference",
-        "contenu": [
+        "paragraphType" : "referenceList",
+        "title" : "Reference",
+        "contenu" : [
           {
-            "name": "Projet d'ANI pour l'accompagnement des évolutions professionnelles, l'investissement dans les compétences et le développement de l'alternance",
-            "url": "http://example.fr/document/1",
-            "datePublished": "2018-01-01T00:00:00Z",
-            "version": "58",
-            "nature": "Nature du document",
-            "editor": "blabla Eyrolles",
-            "author": "blabla Robert"
+            "name" : "Projet d'ANI pour l'accompagnement des évolutions professionnelles, l'investissement dans les compétences et le développement de l'alternance",
+            "url" : "http://example.fr/document/1",
+            "datePublished" : "2018-01-01T00:00:00Z",
+            "version" : "58",
+            "nature" : "Nature du document",
+            "editor" : "blabla Eyrolles",
+            "author" : "blabla Robert"
           },
           {
-            "name": "Projet d'ANI pour l'accompagnement des évolutions professionnelles, l'investissement dans les compétences et le développement de l'alternance",
-            "url": "",
-            "datePublished": "2018-01-01T00:00:00Z",
-            "version": "58",
-            "nature": "Nature du document",
-            "editor": "blabla Eyrolles",
-            "author": "blabla Robert"
+            "name" : "Projet d'ANI pour l'accompagnement des évolutions professionnelles, l'investissement dans les compétences et le développement de l'alternance",
+            "url" : "",
+            "datePublished" : "2018-01-01T00:00:00Z",
+            "version" : "58",
+            "nature" : "Nature du document",
+            "editor" : "blabla Eyrolles",
+            "author" : "blabla Robert"
           }
         ]
       }
     ],
-    "editor": {
-      "name": "Infodoc-experts"
+    "editor" : {
+      "name" : "Infodoc-experts"
     },
-    "dateModified": "2018-01-01T00:00:00Z",
-    "datePublished": "2018-01-01T00:00:00Z",
-    "dateUnPublished": "",
-    "review": {
-      "datePublished": "2018-05-04",
-      "author": {
-        "name": "John Duff",
-        "worksFor": "Service Juridique"
+    "dateModified" : "2018-01-01T00:00:00Z",
+    "datePublished" : "2018-01-01T00:00:00Z",
+    "dateUnPublished" : "",
+    "review" : {
+      "datePublished" : "2018-05-04",
+      "author" : {
+        "name" : "John Duff",
+        "worksFor" : "Service Juridique"
       }
     },
-    "releasedEvent": "2017-11-22T00:00:00Z",
-    "thematic": [
+    "releasedEvent" : "2017-11-22T00:00:00Z",
+    "thematic" : [
       "Fiscal",
       "Création",
       "Entreprise"
     ],
-    "author": {
-      "name": "Jean Duchemin"
+    "author" : {
+      "name" : "Jean Duchemin"
     },
-    "keywords": [
+    "keywords" : [
       "keyword1",
       "keyword2"
     ],
-    "publisher": {
-      "name": "Jean Duchemin",
-      "worksFor": "Pôle / Service / Direction",
-      "webmaster": {
-        "name": "Jean"
+    "publisher" : {
+      "name" : "Jean Duchemin",
+      "worksFor" : "Pôle / Service / Direction",
+      "webmaster" : {
+        "name" : "Jean"
       }
     },
-    "rights": {
-      "group": [
+    "rights" : {
+      "group" : [
         "E.C.I",
         "Stagiaire Rég"
       ]

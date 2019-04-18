@@ -12,7 +12,7 @@ namespace Drupal\xtcfile\Plugin\XtcHandler;
  *   description = @Translation("Readme File for XTC description.")
  * )
  */
-class Readme extends Markdown
+class ReadmeGet extends MarkdownGet
 {
 
 }

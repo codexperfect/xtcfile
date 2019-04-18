@@ -14,7 +14,7 @@ use Drupal\Core\Serialization\Yaml as YamlSerializer;
  *   description = @Translation("YAML File for XTC description.")
  * )
  */
-class Yaml extends FileBase
+class YamlGet extends FileBase
 {
 
   protected function processContent(){

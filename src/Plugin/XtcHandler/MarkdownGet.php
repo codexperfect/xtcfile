@@ -14,7 +14,7 @@ use Drupal\xtcfile\API\LoadMarkdown;
  *   description = @Translation("Markdown File for XTC description.")
  * )
  */
-class Markdown extends FileBase
+class MarkdownGet extends FileBase
 {
 
   protected function processContent(){
