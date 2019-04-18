@@ -9,7 +9,7 @@ use Drupal\Core\Serialization\Yaml as YamlSerializer;
  * Plugin implementation of the xtc_handler.
  *
  * @XtcHandler(
- *   id = "yaml",
+ *   id = "yaml_get",
  *   label = @Translation("YAML File for XTC"),
  *   description = @Translation("YAML File for XTC description.")
  * )

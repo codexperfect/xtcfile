@@ -9,7 +9,7 @@ use Drupal\Component\Serialization\Json as JsonSerializer;
  * Plugin implementation of the xtc_handler.
  *
  * @XtcHandler(
- *   id = "json",
+ *   id = "json_get",
  *   label = @Translation("JSON File for XTC"),
  *   description = @Translation("JSON File for XTC description.")
  * )

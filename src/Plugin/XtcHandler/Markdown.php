@@ -9,7 +9,7 @@ use Drupal\xtcfile\API\LoadMarkdown;
  * Plugin implementation of the xtc_handler.
  *
  * @XtcHandler(
- *   id = "markdown",
+ *   id = "markdown_get",
  *   label = @Translation("Markdown File for XTC"),
  *   description = @Translation("Markdown File for XTC description.")
  * )

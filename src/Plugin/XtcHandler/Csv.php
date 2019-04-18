@@ -9,7 +9,7 @@ use Drupal\xtcfile\API\LoadCsv;
  * Plugin implementation of the xtc_handler.
  *
  * @XtcHandler(
- *   id = "csv",
+ *   id = "csv_get",
  *   label = @Translation("CSV File for XTC"),
  *   description = @Translation("CSV File for XTC description.")
  * )

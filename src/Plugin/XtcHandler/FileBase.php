@@ -12,7 +12,7 @@ use Drupal\xtc\PluginManager\XtcHandler\XtcHandlerPluginBase;
 abstract class FileBase extends XtcHandlerPluginBase
 {
 
-  public function get(){
+  public function process(){
     $this->buildPath();
     if(file_exists($this->options['path'])){
       $this->content = file_get_contents($this->options['path']);

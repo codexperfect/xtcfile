@@ -25,7 +25,7 @@ class XtcFileController extends ControllerBase
     $values['body'] = '';
     $handler = XtcHandler::getHandlerFromProfile($alias);
     if(!empty($handler)){
-      $values['body'] = $handler->get();
+      $values['body'] = $handler->process();
     }
     return [
       '#theme' => 'xtc_file',

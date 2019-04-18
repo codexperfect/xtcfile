@@ -10,7 +10,7 @@ use Drupal\xtcfile\API\LoadMarkdown;
  * Plugin implementation of the xtc_handler.
  *
  * @XtcHandler(
- *   id = "mkdocs",
+ *   id = "mkdocs_get",
  *   label = @Translation("MkDocs File for XTC"),
  *   description = @Translation("MkDocs File for XTC description.")
  * )

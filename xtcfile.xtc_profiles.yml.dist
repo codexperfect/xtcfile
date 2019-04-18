@@ -2,6 +2,7 @@ test_text:
   label: 'Text file'
   description: ''
   type: 'text'
+  verb: 'get'
   abs_path: false
   module: 'xtcfile'
   path: 'example/demo.txt'
@@ -9,6 +10,7 @@ test_html:
   label: 'HTML file'
   description: ''
   type: 'html'
+  verb: 'get'
   abs_path: false
   module: 'xtcfile'
   path: 'example/demo.html'
@@ -16,6 +18,7 @@ test_csv:
   label: 'CSV file'
   description: ''
   type: 'csv'
+  verb: 'get'
   abs_path: false
   module: 'xtcfile'
   path: 'example/demo.csv'
@@ -23,6 +26,7 @@ test_yaml:
   label: 'YAML file'
   description: ''
   type: 'yaml'
+  verb: 'get'
   abs_path: false
   module: 'xtcfile'
   path: 'example/demo.yml'
@@ -30,6 +34,7 @@ test_json:
   label: 'JSON file'
   description: ''
   type: 'json'
+  verb: 'get'
   abs_path: false
   module: 'xtcfile'
   path: 'example/demo.json'
@@ -37,6 +42,7 @@ test_md:
   label: 'MarkDown file'
   description: ''
   type: 'markdown'
+  verb: 'get'
   abs_path: false
   module: 'xtcfile'
   path: 'example/demo.md'
